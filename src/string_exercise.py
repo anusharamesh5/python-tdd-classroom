@@ -1,7 +1,7 @@
 class StringExercise:
 
     def __init__(self):
-        pass   # Do some initial setup in this constructor method, if needed
+        pass  # Do some initial setup in this constructor method, if needed
 
     def reverse_string(self, input_str):
         """
@@ -16,7 +16,7 @@ class StringExercise:
         and False otherwise.
         """
         character = character.lower()
-        if(character in 'aeiou'):
+        if character in 'aeiou':
             return True
         else:
             return False
